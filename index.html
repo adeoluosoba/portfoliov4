@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeolu portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="mediqueries.css">
+    <link rel="stylesheet" href="./style/style_toggle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="mobile_menu">
+        <ul class="mobile_link">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience"></a>Experience</li>
+            <li><a href="#projects"></a>Projects</li>
+            <li><a href="#testimonials"></a>Testimonials</li>
+            <li><a href="#contact"></a>Contact</li>
+        </ul>
+    </div>
+    <nav id="desktop-nav" class="nav">
+        <div class="logo">Adeolu Osoba</div>
+        <div class="ball_plate">
+            <div class="ball"></div>
+        </div>
+        <div>  
+            <ul class="nav-link">
+                <li><a href="#about" class="nav-content active">About</a></li>
+                <li><a href="#experience" class="nav-content">Experience</a></li>
+                <li><a href="#projects" class="nav-content">Projects</a></li>
+                <li><a href="#testimonials" class="nav-content">Testimonials</a></li>
+                <li><a href="#contact" class="nav-content">Contact</a></li>
+            </ul>
+        </div>
+        <div class="action">
+            <span class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <span class="cancel">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+        </div>
+    </nav>
+    <!-- This ends the Html of the first normal portfolio navbar -->  
+    <section class="show" id="portfolio">
+        <div class="left">
+            <div class="profile__image__container">
+                <img class="profile__image" src="./assets/ADE.png" alt="Profile Picture of Adeolu Osoba">
+            </div>
+        </div>
+        <div class="right">
+            <p class="profile__text__p1">Hello there, I'm</p>
+            <h1 class="profile__title">Adeolu Osoba</h1>
+            <p class="profile__text__p2">I'm a Frontend Developer and a Blockchain Developer</p>
+            <!-- This is for the both Download CV button and the contact info -->
+            <div class="btn-container">
+                <button class="btn_profile1">
+                    <a href="./assets/resumeADE.pdf">Download CV</a>
+                </button>
+                  <button class="btn_profile2">
+                      <a href="#contact">Contact Info</a>
+                 </button>
+            </div>
+            <div class="social_media">
+                <a href="https://www.linkedin.com/in/adeolu-osoba-a74483285/" target="_blank" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.me/09069107236" target="_blank" aria-label="WhatsApp Contact"><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href="https://github.com/adeoluosoba/Codeatom.git" target="_blank" aria-label="GitHub Profile"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="about from_middle" id="about">
+        <div class="about__title">
+            <p class="about__p1">Get to know More</p>
+            <h1 class="about-me">About Me</h1>
+        </div>
+            <div class="about__figure disappear">
+                <div class="section__pic-container">
+                    <img src="./assets/Ade about.jpg" alt="About Profile Picture" class="about-pic">
+                </div>
+                <div class="details-containers">
+                    <div class="details-container1">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>Experience</h3>
+                        <p>2+ years <br> Frontend Development</p>
+                        <p>6 Months <br> Blockchain Development</p>
+                    </div>
+                        <!-- This is for my education -->
+                    <div class="details-container2">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        <h3>Education</h3><br><br>
+                        <p class="Bsc">B.Sc. Bachelor's Degree in Electrical Electronics Engineering</p>
+                    </div>
+                </div>
+            </div>
+                <div class="text-container from__left__side">
+                    <p>
+                        During which I have been able to finish with honors degree and also privileged <br> to serve as 
+                        the Student Council Chairman famously known as the Student Union President.
+                    </p>
+                </div>
+    </section>
+    <section id="experience">
+        <div class="experience__text from_middle">
+            <p class="experience__text__p1">Explore My</p>
+            <h1 class="experience__title__h1">Experience</h1>
+        </div>
+        <div class="experience-details-container">
+                <div class="details-containers1 from__right__side">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-solid fa-pen"></i>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-pen"></i>
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-pen"></i>
+                            <div>
+                                <h3>JavaScript Vanilla</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-pen"></i>
+                            <div>
+                                <h3>React.js</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers2 from__left__side">
+                    <h2 class="experience-sub-title">Blockchain Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-solid fa-pen"></i>
+                            <div>
+                                <h3>React.js</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-pen"></i>
+                            <div>
+                                <h3>Web3.js</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-pen"></i>
+                            <div>
+                                <h3>Smart Contract with Solidity</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-pen"></i>
+                            <div>
+                                <h3>Git</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects__text from_middle">
+            <p class="projects__text__p1 ">Browse My Recent</p>
+            <h1 class="projects__title">Projects</h1>
+        </div>
+        <div class="project_container">
+            <div class="project1 from__right__side">
+                <div class="project__image__container1">
+                    <img src="./assets/colorgane_pic.png" alt="Project One" class="project-img">
+                </div>
+                <button class="Demo__btn">
+                   <a href="https://adecolorgame.netlify.app/" target="_blank"> Live Demo </a>
+                </button>
+            </div>  
+            <div class="project2 from__left__side">
+                <div class="project__image__container2">
+                    <img src="./assets/Health_project.jpg" alt="Project One" class="project-img">
+                </div>
+                <button class="Demo__btn" id="">
+                    <a href="https://new-repo-beige.vercel.app/" target="_blank"> Live Demo </a> 
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- My testimonial section -->
+    <section class="testimonial disappear" id="testimonials">
+        <div class="container">
+            <div class="contents-wrapper">
+                <header class="header from_middle">
+                    <h1>Testimonials</h1>
+                </header>
+                <div class="testRow">
+                    <div class="testItem active">
+                        <img src="./assets/Anu.jpg" alt="Adeolu Osoba">
+                        <h3>Anu</h3>
+                        <h4>Ph, Rivers State</h4>
+                        <p>Adeolu is a wonderful mentor and teacher</p>
+                    </div>
+                    <div class="testItem">
+                        <img src="./assets/Gbolahan.jpg" alt="Adeolu Osoba">
+                        <h3>Gbolahan</h3>
+                        <h4>Ph, Rivers State</h4>
+                        <p>Ade thanks for all you've taught me on web Development</p>
+                    </div>
+                    <div class="testItem">
+                        <img src="./assets/cathrine.jpg" alt="Adeolu Osoba">
+                        <h3>Cathrine</h3>
+                        <h4>Ph, Rivers State</h4>
+                        <p>Adeolu is a dedicated mentor and an inspirational tutor</p>
+                    </div>
+                    <!-- <div class="testItem">
+                        <img src="./assets/ADEnew2.png" alt="Adeolu Osoba">
+                        <h3>Adeolu Osoba</h3>
+                        <h4>Ph, Rivers State</h4>
+                        <p>Adeolu is a wonderful mentor and teacher</p>
+                    </div>
+                    <div class="testItem">
+                        <img src="./assets/ADEnew2.png" alt="Adeolu Osoba">
+                        <h3>Adeolu Osoba</h3>
+                        <h4>Ph, Rivers State</h4>
+                        <p>Adeolu is a wonderful mentor and teacher</p>
+                    </div> -->
+                </div>
+                <div class="indicators">
+                    <div class="dot active" data-index="0"></div>
+                    <div class="dot" data-index="1"></div>
+                    <div class="dot" data-index="2"></div>
+                    <!-- <div class="dot" data-index="3"></div>
+                    <div class="dot" data-index="4"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="from_middle">
+        <div class="contact__title">
+            <p class="contact__title__p1">Get in Touch</p>
+            <h1 class="contact__title__h1">Contact Me</h1>
+        </div>
+        <div class="contact-info">
+            <div class="contact-info-email">
+                <i class="fa-solid fa-envelope"></i>
+                <p><a href="mailto:adeoluosoba7236@gmail.com">adeoluosoba7236@gmail.com</a></p>
+            </div>
+            <div class="contact-info-linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+                <p><a href="https://www.linkedin.com/in/adeolu-osoba-a74483285/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials"></a>Testimonials</li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+    <script src="Onscroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.ball_plate {
+    width: 10%;
+    height: 30%;
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    background:#fff ;
+}
+
+.ball{
+    width: 50%;
+    background: black;
+    border-radius: 50px     ;
+
+}
+.night {
+    background: black;
+    color: #fff;
+    text-decoration: #fff;
+}
+.move {
+    transform: translateX(100%);
+}
+
+@media (max-width:500px) {
+    .ball_plate {
+        width: 15%;
+        height: 15%;
+        margin-left: 30px;
+        margin-right: 50px;
+       
+    }
+    
+}
